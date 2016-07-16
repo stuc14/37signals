@@ -1,0 +1,143 @@
+.navigation ul {
+	float: right;
+	font-size: 12px;
+	font-family: sans-serif;
+	margin: 18px 12px auto auto;
+	width: 510px;
+}
+
+.navigation li{
+	display: inline-block;
+	margin: 0 10px; 
+}
+
+.navigation a {
+	color: #369;
+	text-decoration: none;
+}
+
+.navigation span{
+	color: #0099cc;
+}
+
+.main-header {
+	text-align: center;
+	margin: 0 auto 50px auto;
+	width: 60%;
+	clear: both;
+}
+
+.main-header img {
+	margin-top: 35px;
+}
+
+.main-header h1{
+	font-size: 48px;
+	line-height: 70px;
+	width: 750px;
+	text-align: center;
+}
+
+.main-header h2{
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: 500;
+	margin: 10px 0;
+}
+
+.products{
+	text-align: center;
+	display: -webkit-box;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.bc {
+	margin: 0 25px;
+	border: 1px solid black;
+	padding: 15px 15px 15px 15px;
+}
+
+.hr {
+	margin: 0 25px;
+	border: 1px solid black;
+	padding: 15px 15px 15px 15px;
+}
+
+.cf {
+	margin: 0 25px;
+	border: 1px solid black;
+	padding: 15px 15px 15px 15px;
+}
+
+.arrow-left {
+	float: left;
+	position: relative;
+	top: -35px;
+}
+
+.millions {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.millions h1 {
+	font-size: 38px;
+	line-height: 45px;
+	margin: 30px auto 0 0;
+}
+
+.meet {
+	position: relative;
+	right: 150px;
+	top: -85px;
+}
+
+.meet a {
+	background:url("http://codifyacademy.com/salespage/img/img-customers.png");
+	display: block;
+	height: 108px;
+	width: 143px;
+	top: -50px;
+	text-indent: -1000em;
+}
+
+.meet p {
+	float: left;
+	margin: 0 0 16px 0;
+	color: #369;
+}
+
+a:hover {
+	background-position: 0 100%;
+}
+
+.globe {
+	float: right;
+	position: relative;
+	left: 80px;
+	top: -65px;
+
+}
+
+.customers p {
+	font-size: 22px;
+	line-height: 1.5em;
+	text-align: left;
+	float: left;
+	position: relative;
+	top: -295px;
+	width: 80%;
+	color: gray;
+}
+
+.companies {
+	position: relative;
+	top: -285px;
+}
+
+.companies hr {
+	
+}

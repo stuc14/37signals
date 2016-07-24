@@ -20,9 +20,13 @@
 	color: #0099cc;
 }
 
+.navigation a:hover {
+	color: gray;
+}
+
 .main-header {
 	text-align: center;
-	margin: 0 auto 50px auto;
+	margin: 0 auto 25px;
 	width: 60%;
 	clear: both;
 }
@@ -47,27 +51,45 @@
 
 .products{
 	text-align: center;
-	display: -webkit-box;
+	display: block;
 	width: 60%;
-	margin: 0 auto;
+	margin: 0 auto 25px;
+}
+.products p {
+	text-align: center;
+	margin-left: 0;
 }
 
 .bc {
-	margin: 0 25px;
-	border: 1px solid black;
-	padding: 15px 15px 15px 15px;
+	margin: 0 auto;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
 }
 
 .hr {
-	margin: 0 25px;
-	border: 1px solid black;
-	padding: 15px 15px 15px 15px;
+	margin: 0 auto;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
 }
 
 .cf {
-	margin: 0 25px;
-	border: 1px solid black;
-	padding: 15px 15px 15px 15px;
+	margin: 0 auto;
+    border: 1px solid black;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
+
+hr {
+	background: url('../img/starshr.png') no-repeat scroll 50% 50%;
+	border: 0;
+    clear: both;
+    height: 12px;
+    margin-top: 48px;
 }
 
 .arrow-left {
@@ -80,7 +102,7 @@
 	text-align: center;
 	width: 60%;
 	margin: 0 auto;
-	position: relative;
+	height: 600px;
 }
 
 .millions h1 {
@@ -96,7 +118,7 @@
 }
 
 .meet a {
-	background:url("http://codifyacademy.com/salespage/img/img-customers.png");
+	background-image: url("../img/meetimg-customers.png");
 	display: block;
 	height: 108px;
 	width: 143px;
@@ -138,6 +160,180 @@ a:hover {
 	top: -285px;
 }
 
-.companies hr {
-	
+.manifesto {
+	height: 790px;
+	margin: 30px auto;
+	width: 70%;	
+	position: relative;
+	top: -120px;
+	text-align: center;
+}
+
+.manifesto h1 {
+	font-size: 48px;
+	margin-top: 170px;
+}
+
+.column {
+	width: 35%;
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0 35px;
+
+}
+
+.chapter {
+	font-size: 58px;
+	float: left;
+	padding:3px;
+}
+
+.title {
+	font-weight: bold;
+	text-align: left;
+	font-size: 19px;
+}
+
+p {
+	font-size: 16px;
+	text-align: left;
+	margin-left: 35px;
+}
+
+.column2 {
+	width: 35%;
+	display: inline-block;
+	margin: 0 15px;
+	padding: 0 35px;
+	line-height: 1.22;
+}
+
+.rework {
+	position: relative;
+	top: -140px;
+}
+
+.rework h1 {
+	text-align: center;
+    font-size: 45px;
+    line-height: 52px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0 140px;
+}
+
+.arrow-right {
+	float: right;
+    position: relative;
+    top: -20px;
+    right: 160px;
+}
+
+.crumple {
+	float: right;
+    position: relative;
+    left: 50px;
+    top: -105px;
+}
+
+.crumple a {
+	text-decoration: none;
+}
+
+.crumple a:hover {
+	text-decoration: underline;
+}
+
+.crumple p {
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+.book {
+	display: inline-block;
+    position: relative;
+    top: 25px;
+    left: 165px;
+}
+
+.quotes {
+	display: inline-block;
+    float: right;
+    width: 45%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.quotes p {
+	text-align: center;
+}
+
+.offers {
+	text-align: center;
+	position: relative;
+    top: -125px;
+}
+
+.offers h1 {
+	font-size: 45px;
+}
+
+.offers span {
+	color: #C00;
+	padding: 0 40px 5px 40px;
+	border-bottom: 1px solid #dcd9d9;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+small {
+	position: relative;
+	top: -15px;
+}
+
+.offers .column {
+	width: 25%;
+}
+
+.offers .column2 {
+	width: 25%;
+	position: relative;
+    top: 10px;
+}
+
+.extra {
+	text-align: center;
+	position: relative;
+	top: -75px;
+}
+
+.extra span {
+	color: #C00;
+    padding: 0 40px 5px 40px;
+    border-bottom: 1px solid #dcd9d9;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.extra p {
+	text-align: center;
+	margin-left: 0;
+	color: #336699;
+}
+
+footer {
+	margin: 50px 25px;
+	text-align: center;
+	font-size: 12px;
+}
+
+footer a {
+	text-decoration: none;
+	color: #336699;
+}
+
+footer a:hover {
+	color: gray;
 }
